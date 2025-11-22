@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  padding: 30px calc(50% - 500px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.banner {
+  background-image: url("./img/vecteezy_white-background-with-blue-geometric-and-white-line-pattern_7677104-1.jpg");
+  padding: 100px calc(50% - 700px);
+  background-size: cover;
+  background-position: bottom;
+  height: calc(100vh - 510px);
+}
+
+.info {
+  padding: 30px calc(50% - 500px);
+  display: flex;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  width: 25%;
+  align-items: start;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.card h4 {
+  margin-bottom: 30px;
+  align-items: start;
+}
+
+img {
+  height: 50px;
+}
+h1 {
+  width: 600px;
+}
+
+.banner p {
+  width: 500px;
+}
